@@ -1,0 +1,41 @@
+SITIO WEB — VanRose Real Estate (de H&A Tax)
+=============================================
+
+ESTRUCTURA DE CARPETAS
+----------------------
+Sitio web VanRose/
+  index.html            -> Detector de idioma. Redirige a /es o /en segun el
+                           navegador. Si no hay JS, muestra botones para elegir.
+  es/index.html         -> Sitio en ESPANOL  (tono cercano, para publico latino)
+  en/index.html         -> Sitio en INGLES   (tono profesional, para publico US)
+  assets/
+    css/styles.css      -> Estilos (compartidos por ES y EN)
+    js/main.js          -> Interaccion: menu movil, video, formulario (bilingue)
+    img/                -> Fotos, logo/favicon y video de la casa
+  LEEME.txt             -> Este archivo
+
+COMO VERLO
+----------
+Abre  index.html  con doble clic (se abre en tu navegador y detecta el idioma).
+O abre directamente  es/index.html  o  en/index.html.
+
+COMO PUBLICARLO (Netlify, igual que Centta)
+-------------------------------------------
+1. Entra a netlify.com  ->  Add new site  ->  Deploy manually.
+2. Arrastra la carpeta  "Sitio web VanRose"  completa.
+3. Netlify te da un link (ej. vanrose.netlify.app). Ese se lo mandas a Cristel.
+4. Cuando compren el dominio (vanroserealestate.com), se conecta en
+   Netlify -> Domain settings.
+
+PENDIENTE (cuando Cristel devuelva el formulario)
+-------------------------------------------------
+- Ciudad, precio y datos reales de cada propiedad (hoy: Richmond, $1,950/mes, 3/2/1450).
+- Fotos y link de la propiedad de Airbnb (condo de ski).
+- Correo real del formulario y usuarios de redes (@instagram / Facebook).
+- Conectar el formulario a un servicio (Formspree) para recibir las solicitudes
+  sin abrir el correo del visitante.
+
+MARCA
+-----
+Azul  #14315D   ·   Dorado  #C1A15A
+Tipografias: Playfair Display (titulos) + Montserrat (texto).
